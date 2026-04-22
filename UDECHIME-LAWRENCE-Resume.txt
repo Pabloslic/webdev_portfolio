@@ -1,0 +1,36 @@
+UDECHIME LAWRENCE
+Frontend Developer
+Abuja, Nigeria
+Email: udechimelawrence147@gmail.com
+Phone: +234 810 1410 188
+GitHub: https://github.com/pabloslic
+
+PROFILE
+Passionate web developer focused on building modern, responsive, and user-friendly digital experiences. I combine design and code to create interfaces that are both functional and visually engaging.
+
+SKILLS
+- HTML5
+- CSS3
+- JavaScript
+- Responsive Design
+- Git & GitHub
+- UI/UX Principles
+
+PROJECTS
+1. Modern Portfolio Website
+Live Demo: https://pabloslic.github.io/portfolio/
+Code: https://github.com/pabloslic/portfolio
+
+2. Restaurant Landing Page
+Live Demo: https://pabloslic.github.io/Velvora-Resturant/
+Code: https://github.com/pabloslic/Velvora-Resturant
+
+3. Animal Encyclopedia
+Live Demo: https://pabloslic.github.io/Animal/
+Code: https://github.com/pabloslic/Animal
+
+WORKFLOW
+Plan
+Design
+Develop
+Test

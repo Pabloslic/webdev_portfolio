@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Udechime Lawrence | Story Portfolio</title>
+  <meta
+    name="description"
+    content="A cinematic scroll-based portfolio for Udechime Lawrence, a frontend developer building modern and responsive digital experiences."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="progress-bar" aria-hidden="true">
+    <span class="progress-bar__fill" id="progressFill"></span>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#intro">UDECHIME LAWRENCE</a>
+    <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Open navigation menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+      <a href="#beginning">Beginning</a>
+      <a href="#struggle">Struggle</a>
+      <a href="#breakthrough">Breakthrough</a>
+      <a href="#skills">Skills</a>
+      <a href="#approach">Approach</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+
+  <main>
+    <section class="panel intro-panel" id="intro">
+      <div class="orb orb--one"></div>
+      <div class="orb orb--two"></div>
+      <div class="panel__content hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Phase 01</p>
+          <h1>Every expert was once a beginner</h1>
+          <p class="hero-role">Frontend Developer</p>
+          <p class="lede">
+            I am a passionate web developer focused on building modern, responsive, and user-friendly digital
+            experiences. I combine design and code to create interfaces that are both functional and visually engaging.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn--primary" href="#projects">View My Work</a>
+            <a class="btn btn--ghost" href="https://github.com/pabloslic" target="_blank" rel="noreferrer">GitHub Profile</a>
+            <a class="btn btn--ghost" href="UDECHIME-LAWRENCE-Resume.txt" download>Download Resume</a>
+          </div>
+        </div>
+
+        <aside class="hero-card reveal delay-1">
+          <p class="hero-card__label">Quick Snapshot</p>
+          <ul class="hero-meta">
+            <li><span>Name</span><strong>Udechime Lawrence</strong></li>
+            <li><span>Based in</span><strong>Abuja, Nigeria</strong></li>
+            <li><span>Email</span><a href="mailto:udechimelawrence147@gmail.com">udechimelawrence147@gmail.com</a></li>
+            <li><span>Phone</span><a href="tel:+2348101410188">+234 810 1410 188</a></li>
+          </ul>
+          <p class="hero-quote">"Here's how I think, build, and grow."</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="panel beginning-panel" id="beginning">
+      <div class="panel__content beginning-layout">
+        <div class="story-card story-card--offset reveal">
+          <p class="eyebrow">Phase 02</p>
+          <h2>Beginning</h2>
+          <p>
+            I started my journey into web development with curiosity and a desire to create something meaningful from
+            scratch. At first, it was just simple pages and experiments, but each step taught me something new.
+          </p>
+        </div>
+        <div class="note-cluster">
+          <article class="sticky-note reveal delay-1">
+            <h3>Curiosity</h3>
+            <p>Simple pages became a way to turn ideas into something visible and real.</p>
+          </article>
+          <article class="sticky-note reveal delay-2">
+            <h3>Practice</h3>
+            <p>Each new experiment taught structure, spacing, interaction, and persistence.</p>
+          </article>
+          <article class="sticky-note reveal delay-3">
+            <h3>Momentum</h3>
+            <p>Consistency changed uncertainty into confidence and confidence into progress.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel struggle-panel" id="struggle">
+      <div class="panel__content">
+        <p class="eyebrow reveal">Phase 03</p>
+        <h2 class="reveal">Struggle</h2>
+        <div class="chaos-grid">
+          <p class="chaos-word glitch" data-text="Errors">Errors</p>
+          <p class="chaos-word reveal">Bugs</p>
+          <p class="chaos-word glitch" data-text="Confusion">Confusion</p>
+          <p class="chaos-word reveal">Broken Layouts</p>
+          <p class="chaos-word glitch" data-text="Debugging">Debugging</p>
+        </div>
+        <p class="section-copy reveal">
+          There were moments of confusion, broken layouts, errors that made no sense, and countless hours trying to fix
+          what seemed impossible. But every challenge became part of the process.
+        </p>
+      </div>
+    </section>
+
+    <section class="panel breakthrough-panel" id="breakthrough">
+      <div class="light-beam"></div>
+      <div class="panel__content breakthrough-layout">
+        <div class="reveal">
+          <p class="eyebrow">Phase 04</p>
+          <h2>Breakthrough</h2>
+          <p>
+            With consistency and practice, things began to click. Code became clearer, design became intentional, and I
+            started building projects with confidence and structure.
+          </p>
+        </div>
+        <div class="breakthrough-steps">
+          <article class="step-card reveal delay-1">
+            <span>01</span>
+            <h3>Clarity</h3>
+            <p>I learned to understand why things work instead of only following examples.</p>
+          </article>
+          <article class="step-card reveal delay-2">
+            <span>02</span>
+            <h3>Intentional Design</h3>
+            <p>Layouts, spacing, typography, and interaction started working together with purpose.</p>
+          </article>
+          <article class="step-card reveal delay-3">
+            <span>03</span>
+            <h3>Confidence</h3>
+            <p>I began turning ideas into projects that feel polished, responsive, and easier to use.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel stats-panel" id="stats">
+      <div class="panel__content">
+        <p class="eyebrow reveal">Proof</p>
+        <h2 class="reveal">Growth You Can Measure</h2>
+        <div class="stats-grid">
+          <article class="stat-card reveal">
+            <strong class="stat-number" data-count="5">0</strong>
+            <span>Projects Completed</span>
+          </article>
+          <article class="stat-card reveal delay-1">
+            <strong class="stat-number" data-count="6">0</strong>
+            <span>Core Technologies</span>
+          </article>
+          <article class="stat-card reveal delay-2">
+            <strong class="stat-text">Ongoing</strong>
+            <span>Learning Journey</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel skills-panel" id="skills">
+      <div class="panel__content">
+        <p class="eyebrow reveal">Phase 05</p>
+        <h2 class="reveal">Skills Forged Through Practice</h2>
+        <div class="skills-list">
+          <article class="skill-card reveal">
+            <div class="skill-card__header">
+              <h3>HTML5</h3>
+              <span class="skill-value">95%</span>
+            </div>
+            <div class="skill-track">
+              <span class="skill-fill" data-skill="95"></span>
+            </div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-card__header">
+              <h3>CSS3</h3>
+              <span class="skill-value">92%</span>
+            </div>
+            <div class="skill-track">
+              <span class="skill-fill" data-skill="92"></span>
+            </div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-card__header">
+              <h3>JavaScript</h3>
+              <span class="skill-value">86%</span>
+            </div>
+            <div class="skill-track">
+              <span class="skill-fill" data-skill="86"></span>
+            </div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-card__header">
+              <h3>Responsive Design</h3>
+              <span class="skill-value">90%</span>
+            </div>
+            <div class="skill-track">
+              <span class="skill-fill" data-skill="90"></span>
+            </div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-card__header">
+              <h3>Git &amp; GitHub</h3>
+              <span class="skill-value">82%</span>
+            </div>
+            <div class="skill-track">
+              <span class="skill-fill" data-skill="82"></span>
+            </div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-card__header">
+              <h3>UI/UX Principles</h3>
+              <span class="skill-value">84%</span>
+            </div>
+            <div class="skill-track">
+              <span class="skill-fill" data-skill="84"></span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel approach-panel" id="approach">
+      <div class="panel__content">
+        <p class="eyebrow reveal">How I Build</p>
+        <h2 class="reveal">Design Thinking + Workflow</h2>
+        <div class="approach-grid">
+          <article class="approach-card reveal">
+            <h3>My Approach</h3>
+            <ul class="list-clean">
+              <li>I focus on simplicity and clarity.</li>
+              <li>I prioritize user experience from the first idea.</li>
+              <li>I design before coding so the final result feels intentional.</li>
+            </ul>
+          </article>
+          <article class="approach-card reveal delay-1">
+            <h3>Tools I Use</h3>
+            <div class="chip-row">
+              <span class="tool-chip">VS Code</span>
+              <span class="tool-chip">GitHub</span>
+              <span class="tool-chip">Figma</span>
+              <span class="tool-chip">HTML</span>
+              <span class="tool-chip">CSS</span>
+              <span class="tool-chip">JavaScript</span>
+            </div>
+          </article>
+          <article class="approach-card reveal delay-2">
+            <h3>Workflow</h3>
+            <ol class="workflow-list">
+              <li>Plan</li>
+              <li>Design</li>
+              <li>Develop</li>
+              <li>Test</li>
+            </ol>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel projects-panel" id="projects">
+      <div class="panel__content">
+        <p class="eyebrow reveal">Phase 06</p>
+        <h2 class="reveal">Projects With Proof</h2>
+
+        <article class="featured-project reveal">
+          <div class="featured-project__content">
+            <p class="featured-tag">Featured Project</p>
+            <h3>Modern Portfolio Website</h3>
+            <p class="featured-copy">
+              A clean and responsive personal portfolio designed to showcase skills and projects while telling a stronger
+              visual story.
+            </p>
+            <div class="case-study">
+              <p><strong>Problem:</strong> Build a personal website that feels polished, responsive, and memorable.</p>
+              <p><strong>Solution:</strong> I created a modern portfolio with cleaner structure, better hierarchy, and stronger interaction.</p>
+              <p><strong>Process:</strong> I planned the content flow, refined the layout, improved spacing, and added responsive behavior.</p>
+              <p><strong>Result:</strong> The final site presents my work more clearly and creates a better first impression.</p>
+            </div>
+            <div class="project-actions">
+              <a class="btn btn--primary" href="https://pabloslic.github.io/portfolio/" target="_blank" rel="noreferrer">Live Demo</a>
+              <a class="btn btn--ghost-dark" href="https://github.com/pabloslic/portfolio" target="_blank" rel="noreferrer">View Code</a>
+            </div>
+          </div>
+        </article>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <h3><a href="https://pabloslic.github.io/Velvora-Resturant/" target="_blank" rel="noreferrer">Restaurant Landing Page</a></h3>
+            <p>A stylish landing page for a restaurant with a modern UI and responsive layout.</p>
+            <p><strong>Tools:</strong> HTML, CSS</p>
+            <div class="case-study case-study--compact">
+              <p><strong>Problem:</strong> Create a landing page that feels inviting and easy to explore.</p>
+              <p><strong>Solution:</strong> I built a stylish one-page experience with stronger structure and visual appeal.</p>
+              <p><strong>Process:</strong> I focused on layout balance, typography, and mobile responsiveness.</p>
+              <p><strong>Result:</strong> The site works smoothly across screen sizes and presents the brand more clearly.</p>
+            </div>
+            <div class="project-actions">
+              <a class="btn btn--secondary" href="https://pabloslic.github.io/Velvora-Resturant/" target="_blank" rel="noreferrer">Live Demo</a>
+              <a class="btn btn--ghost-dark" href="https://github.com/pabloslic/Velvora-Resturant" target="_blank" rel="noreferrer">View Code</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal delay-1">
+            <h3><a href="https://pabloslic.github.io/Animal/" target="_blank" rel="noreferrer">Animal Encyclopedia</a></h3>
+            <p>A user-friendly browsing experience built to organize information with stronger clarity and interaction.</p>
+            <p><strong>Tools:</strong> HTML, CSS, JavaScript</p>
+            <div class="case-study case-study--compact">
+              <p><strong>Problem:</strong> Present content in a way that feels simple instead of overwhelming.</p>
+              <p><strong>Solution:</strong> I designed an interface that improves scanning, readability, and navigation.</p>
+              <p><strong>Process:</strong> I structured the content carefully and used front-end styling to reduce clutter.</p>
+              <p><strong>Result:</strong> The experience feels more organized and easier to use.</p>
+            </div>
+            <div class="project-actions">
+              <a class="btn btn--secondary" href="https://pabloslic.github.io/Animal/" target="_blank" rel="noreferrer">Live Demo</a>
+              <a class="btn btn--ghost-dark" href="https://github.com/pabloslic/Animal" target="_blank" rel="noreferrer">View Code</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel testimonial-panel" id="testimonials">
+      <div class="panel__content">
+        <p class="eyebrow reveal">Feedback</p>
+        <h2 class="reveal">What People Notice</h2>
+        <div class="testimonial-grid">
+          <article class="testimonial-card reveal">
+            <p>"Clean design and easy to use."</p>
+            <span>Project Feedback</span>
+          </article>
+          <article class="testimonial-card reveal delay-1">
+            <p>"The layout feels modern and the structure is clear."</p>
+            <span>Design Review</span>
+          </article>
+          <article class="testimonial-card reveal delay-2">
+            <p>"You can see the growth in both the code and the presentation."</p>
+            <span>Learning Reflection</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel future-panel" id="future">
+      <div class="panel__content panel__content--center">
+        <p class="eyebrow reveal">Phase 07</p>
+        <h2 class="reveal">This is only the beginning...</h2>
+        <p class="section-copy reveal">
+          I am constantly learning, improving, and pushing my limits to create better and more impactful digital
+          experiences.
+        </p>
+        <div class="future-points">
+          <a class="future-chip reveal delay-1" href="#projects">See the proof</a>
+          <a class="future-chip reveal delay-2" href="#approach">See the process</a>
+          <a class="future-chip reveal delay-3" href="#contact">Start a conversation</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-title">Thank you for taking the time to explore my work.</p>
+        <p>I design and build digital experiences that don't just work, they leave an impression.</p>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:udechimelawrence147@gmail.com">udechimelawrence147@gmail.com</a>
+        <a href="tel:+2348101410188">+234 810 1410 188</a>
+        <a href="https://github.com/pabloslic" target="_blank" rel="noreferrer">GitHub Repository Page</a>
+        <a href="https://maps.google.com/?q=Abuja,Nigeria" target="_blank" rel="noreferrer">Abuja, Nigeria</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
